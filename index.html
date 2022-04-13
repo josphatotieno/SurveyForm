@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div id="form-wrapper">
+        <div id="title-wrapper">
+            <div>
+                <h1 id="title">Football Fans Survey Form</h1>
+                <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+
+        <form action="" id="survey-form">
+            <div>
+                <label for="" id="name-label">Name</label>
+                <input type="text" name="" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div>
+                <label for="" id="email-label">Email</label>
+                <input type="email" name="" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div>
+                <label for="" id="number-label">Age</label>
+                <input type="number" name="" min="10" max="40" id="number" placeholder="Enter your number" required>
+            </div>
+
+            <div>
+                <p for="">What's your favorite football club?</p>
+                <select name="" id="dropdown" >
+                    <option disabled selected value>Select your favorite club</option>
+                    <option value="Arsenal">Arsenal</option>
+                    <option value="BayernMunich">Bayern Munich</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Liverpool">Liverpool</option>
+                </select>
+            </div>
+
+            <div>
+                <p for="">What's your favorite league?</p>
+                <div>
+                    <input type="radio" name="league" id="" value="EPL" selected>
+                    <label for="league">EPL</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="league" id="" value="Laliga">
+                    <label for="league">La liga</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="league" id="" value="Bundesliga">
+                    <label for="league">Bundesliga</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="league" id="" value="SerieA">
+                    <label for="league">Serie A</label>
+                </div>
+            </div>
+
+            <div>
+                <p>Who's your favourite football player? (Check all that apply)</p>
+                <div>
+                    <input type="checkbox" name="player" id="" value="Saka">
+                    <label for="player">Saka</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="player" id="" value="Mbappe">
+                    <label for="player">Mbappe</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="player" id="" value="Cancelo">
+                    <label for="player">Cancelo</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="player" id="" value="Kimmich">
+                    <label for="player">Kimmich</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="player" id="" value="Trent">
+                    <label for="player">Trent</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="player" id="" value="Davies">
+                    <label for="player">Davies</label>
+                </div>
+            </div>
+
+            <div>
+                <p>Any comments or suggestions?</p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your message..."></textarea>
+            </div>
+
+            <!-- <input type="submit" value="Submit"> -->
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

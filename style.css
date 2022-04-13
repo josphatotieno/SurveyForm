@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#form-wrapper {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    
+    background-color: rgb(5, 10, 17);
+}
+
+#title-wrapper {
+    text-align: center;
+    background-color: #a121b7;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#title-wrapper > div {
+    animation: slideLeft 2s ease-in-out;
+}
+
+#title {
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+#title p {
+    font-size: 22px;
+}
+
+#survey-form {
+    padding: 40px 0;
+    color: #fff;
+    max-width: 600px;
+    margin: auto;
+}
+
+#survey-form > div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 13px;
+    border-radius: 4px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #a121b7;
+}
+
+button {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 4px;
+    background-color: #a121b7;
+    color: #fff;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@media (max-width: 768px) {
+    #survey-form {
+        padding: 40px;
+    }
+}
